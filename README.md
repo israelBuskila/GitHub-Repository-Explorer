@@ -1,29 +1,38 @@
-### **📄 README.md (Incomplete Task - Explanation Included)**  
+Here’s a **README.md** file for your project, including a note about incomplete features:  
+
+---
 
 ```md
 # GitHub Repository Explorer  
 
-🚀 A simple Next.js app to explore GitHub repositories by searching for a username.  
+🚀 A simple Next.js app that allows users to search for a GitHub username, view repositories, and explore contributor details.  
 
-## 📌 Features (Planned & Implemented)  
+## 📌 Features  
+
 ### ✅ Implemented:
-- Search for a GitHub username and fetch repositories.  
-- Display repository details (name, description, stars, language).  
-- Navigation between pages using Next.js App Router.  
-- Basic styling with CSS Modules/SCSS.  
+- Search for repositories by entering a GitHub username.  
+- Display repository details, including:
+  - Repository name  
+  - Description  
+  - Star count  
+  - Programming language  
+- Dynamic page navigation with Next.js App Router.  
+- Basic UI styling with CSS Modules/SCSS.  
 
 ### ⏳ Work In Progress:
-- Sorting repositories by star count.  
-- Repository details page with contributor list.  
-- API caching for better performance.  
-- Infinite scrolling for better UX.  
+- Repository details page with:
+  - Top contributors (avatar, name, commits).  
+  - "View on GitHub" link.  
+- Client-side caching to optimize API calls.  
+- Infinite scrolling for better performance.  
 - Dark mode toggle.  
 
 ## 🛠️ Setup & Installation  
+
 1. Clone the repository:  
    ```sh
-   git clone [repo-link]
-   cd github-repo-explorer
+   git clone https://github.com/israelBuskila/GitHub-Repository-Explorer.git
+   cd GitHub-Repository-Explorer
    ```
 2. Install dependencies:  
    ```sh
@@ -35,12 +44,11 @@
    ```
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.  
 
-## ⚠️ Note  
-This project is **still in progress**, and some features are not fully implemented yet. Given the time constraints, I prioritized core functionality, and I plan to improve it further.  
+## ⚠️ Notes  
+This project is still in progress. While core functionality is implemented, some features are incomplete due to time constraints. The code is structured for easy future improvements.  
 
-## 📌 Future Enhancements  
-- Complete all planned features.  
+## 🚀 Future Enhancements  
+- Complete repository details page with contributors.  
+- Implement sorting and infinite scrolling.  
 - Optimize API calls with caching.  
 - Improve UI/UX with better styling and animations.  
-
----
